@@ -45,7 +45,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.title = @"Find food near ME";
+    self.title = @"Magic Food Ball";
     
     self.mainTabBar.delegate = self;
     
@@ -156,7 +156,7 @@
 {
     if (!_mainView) {
         _mainView = [[UIView alloc]initWithFrame:CGRectMake(0, 100, 320, 500)];
-        _mainView.backgroundColor = [UIColor lightGrayColor];
+//        _mainView.backgroundColor = [UIColor lightGrayColor];
         
         self.animator = [[UIDynamicAnimator alloc]initWithReferenceView:_mainView];
         
@@ -324,7 +324,6 @@
         myFavoriteTableView.tableHeaderView = headLabel;
         myFavoriteTableView.tableFooterView = nil;
         
-        _heartView.backgroundColor = [UIColor blueColor];
         
         [_heartView addSubview:myFavoriteTableView];
     }
