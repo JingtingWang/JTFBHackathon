@@ -24,6 +24,8 @@
 		6E6EAFFE18E7543A00395B5B /* JTFBMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6EAFFC18E7543A00395B5B /* JTFBMainViewController.m */; };
 		6E6EAFFF18E7543A00395B5B /* JTFBMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E6EAFFD18E7543A00395B5B /* JTFBMainViewController.xib */; };
 		6E6EB00218E7590500395B5B /* UIImage+resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6EB00118E7590500395B5B /* UIImage+resize.m */; };
+		6EC6031B18E7798400F2888B /* JTFBYelpServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC6031A18E7798400F2888B /* JTFBYelpServices.m */; };
+		6EC6031E18E7938A00F2888B /* JTFBFriendRestaurantCheckin.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC6031D18E7938A00F2888B /* JTFBFriendRestaurantCheckin.m */; };
 		B8576D001E924DEAB20103EE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 219775CA1BD14298A1CE4C35 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +66,10 @@
 		6E6EAFFD18E7543A00395B5B /* JTFBMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JTFBMainViewController.xib; sourceTree = "<group>"; };
 		6E6EB00018E7590500395B5B /* UIImage+resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+resize.h"; sourceTree = "<group>"; };
 		6E6EB00118E7590500395B5B /* UIImage+resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+resize.m"; sourceTree = "<group>"; };
+		6EC6031918E7798400F2888B /* JTFBYelpServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTFBYelpServices.h; sourceTree = "<group>"; };
+		6EC6031A18E7798400F2888B /* JTFBYelpServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTFBYelpServices.m; sourceTree = "<group>"; };
+		6EC6031C18E7938A00F2888B /* JTFBFriendRestaurantCheckin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTFBFriendRestaurantCheckin.h; sourceTree = "<group>"; };
+		6EC6031D18E7938A00F2888B /* JTFBFriendRestaurantCheckin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTFBFriendRestaurantCheckin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +143,10 @@
 				6E6EAFF918E7509300395B5B /* UIView+autolayout.m */,
 				6E6EB00018E7590500395B5B /* UIImage+resize.h */,
 				6E6EB00118E7590500395B5B /* UIImage+resize.m */,
+				6EC6031918E7798400F2888B /* JTFBYelpServices.h */,
+				6EC6031A18E7798400F2888B /* JTFBYelpServices.m */,
+				6EC6031C18E7938A00F2888B /* JTFBFriendRestaurantCheckin.h */,
+				6EC6031D18E7938A00F2888B /* JTFBFriendRestaurantCheckin.m */,
 				6E6EAC0F18E63A9800395B5B /* Images.xcassets */,
 				6E6EAC0418E63A9800395B5B /* Supporting Files */,
 			);
@@ -308,7 +318,9 @@
 				6E6EAFFA18E7509300395B5B /* UIView+autolayout.m in Sources */,
 				6E6EAFFE18E7543A00395B5B /* JTFBMainViewController.m in Sources */,
 				6E6EAC0E18E63A9800395B5B /* JTFBAppDelegate.m in Sources */,
+				6EC6031B18E7798400F2888B /* JTFBYelpServices.m in Sources */,
 				6E6EAC0A18E63A9800395B5B /* main.m in Sources */,
+				6EC6031E18E7938A00F2888B /* JTFBFriendRestaurantCheckin.m in Sources */,
 				6E6EB00218E7590500395B5B /* UIImage+resize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

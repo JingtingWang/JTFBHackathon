@@ -18,14 +18,10 @@
     self.window.backgroundColor = [UIColor whiteColor];
     
     JTFBMainViewController *vc = [JTFBMainViewController new];
-    vc.view.backgroundColor = [UIColor purpleColor];
-    
     UINavigationController *navVC = [UINavigationController new];
     [navVC pushViewController:vc animated:NO];
     
     self.window.rootViewController = navVC;
-
-    
 
     [self.window makeKeyAndVisible];
     return YES;

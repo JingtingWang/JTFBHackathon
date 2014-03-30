@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-NXOAuth2Client.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>19301596387F4BF49341D0AF</key>
+		<key>1F660B96D2D548938F7C0DA7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C9D5001E3CC844C2BE9F998D</key>
+		<key>37E602618E1848919ADD9277</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E8A19544A2B944858831387E</key>
+		<key>45D12F195591405A9A2D7B30</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5D886FCEF7564EF1AB63828B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

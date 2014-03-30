@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JTFBMainViewController : UIViewController<UITabBarDelegate>
+@interface JTFBMainViewController : UIViewController<UITabBarDelegate,UITableViewDataSource, UITableViewDelegate>
 
 
 @property (weak, nonatomic) IBOutlet UITabBar *mainTabBar;

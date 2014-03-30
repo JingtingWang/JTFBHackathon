@@ -19,13 +19,16 @@ PODS:
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - MBProgressHUD (0.8)
+  - NXOAuth2Client (1.2.5)
 
 DEPENDENCIES:
   - AFNetworking
   - MBProgressHUD
+  - NXOAuth2Client (~> 1.2.2)
 
 SPEC CHECKSUMS:
   AFNetworking: 0121f4b69be3fa58d1ab317866e036e12ac9651d
   MBProgressHUD: 2bbc6f470111daf7f3eaa4eb12b8cbf01c4c0622
+  NXOAuth2Client: 2ad31d48b28e00663ce4fe21345ccee0cab35e01
 
 COCOAPODS: 0.30.0
